@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Meta tag to set the viewport to make the website responsive -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Title of the webpage -->
+        <title>Random Password Generation</title>
+        <!-- Link to the external CSS file -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <!-- Main heading of the webpage -->
+            <h1>Generate a <br><span>random password</span></h1>
+            <div class="display">
+                <!-- Input field to display the generated password -->
+                <input type="text" id="password" placeholder="Password">
+                <!-- Image acting as a button to copy the password -->
+                <img src="Random Password Generation Icons/copy.png" onclick="copyPassword()">
+            </div>
+            <!-- Button to generate a new password -->
+            <button onclick="generatePassword()">
+                <img src="Random Password Generation Icons/generate.png">
+                Generate Password
+            </button>
+        </div>
+    
+        <!-- Link to the external JavaScript file -->
+        <script src="main.js"></script>
+    </body>
+</html>
