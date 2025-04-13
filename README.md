@@ -16,3 +16,8 @@ A simple and responsive web application that generates secure, random passwords 
 - **CSS** – Styling for layout and responsiveness.
 - **JavaScript** – Logic for generating random passwords.
 
+## 🔧 How to Use
+
+1. Clone the repo:
+2. Open the folder
+3. Open `index.html` in your browser.
